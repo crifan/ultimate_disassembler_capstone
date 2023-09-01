@@ -1,0 +1,19 @@
+{
+  "title": "反汇编利器：Capstone",
+  "description": "整理强大好用的反汇编工具Capstone。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "ultimate_disassembler_capstone"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/ultimate_disassembler_capstone/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/ultimate_disassembler_capstone/pdf/ultimate_disassembler_capstone.pdf"
+    }
+  }
+}
