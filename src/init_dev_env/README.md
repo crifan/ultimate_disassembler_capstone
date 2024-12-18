@@ -4,9 +4,13 @@
 
 * 概述
   * Mac
-    * `brew install capstone`
+    ```bash
+    brew install capstone
+    ```
   * Ubuntu
-    * `sudo apt-get install libcapstone3`
+    ```bash
+    sudo apt-get install libcapstone3
+    ```
 
 ---
 
@@ -35,7 +39,8 @@
 
 用Capstone的Python测试代码：
 
-* X86
+
+### X86
 
 ```py
 # test1.py
@@ -55,7 +60,7 @@ for i in md.disasm(CODE, 0x1000):
 0x1001: mov     rax, qword ptr [rip + 0x13b8]
 ```
 
-* arm64
+### arm64
 
 ```py
 from capstone import *
@@ -130,7 +135,9 @@ for insn in md.disasm(CODE, 0x38):
                         Shift: type = 1, value = 2
 ```
 
--> 更多测试代码，详见：
+### 其他更多测试代码
+
+其他更多测试代码，详见：
 
 * [Programming with Python language – Capstone – The Ultimate Disassembler (capstone-engine.org)](http://www.capstone-engine.org/lang_python.html)
 * [capstone/bindings/python at master · capstone-engine/capstone · GitHub](https://github.com/capstone-engine/capstone/tree/master/bindings/python)
