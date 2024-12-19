@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v1.1.0",
-  "lastUpdate": "20241218",
+  "latestVersion": "v1.2.0",
+  "lastUpdate": "20241219",
   "gitRepoName": "ultimate_disassembler_capstone",
   "bookName": "反汇编利器：Capstone",
   "bookDescription": "整理强大好用的反汇编工具Capstone。"

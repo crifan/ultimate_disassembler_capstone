@@ -26,7 +26,7 @@ akd`___lldb_unnamed_symbol2540$$akd:
   [0x10034]     movz    w27, #0x5a87
 ```
 
-![capstone_decode_movz](../assets/img/capstone_decode_movz.png)
+![capstone_decode_movz](../assets/img/capstone_decode_movz.jpg)
 
 —> 经过确认，其实：是一样的。
 
